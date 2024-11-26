@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Protected Fireworks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-section">
+    <h1>Enter Password</h1>
+    <form id="password-form">
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Enter</button>
+    </form>
+    <p id="error-message"></p>
+  </div>
+
+  <div id="fireworks-section" style="display: none;">
+    <canvas id="fireworks-canvas"></canvas>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
